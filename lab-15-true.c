@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
 float num1(int p){
 	return sqrt(pow(1 - p, 3));
 }
@@ -46,7 +45,6 @@ int num10(int x){
 
 
 int main(){
-
 	printf("%f is the result\n", num1(1)); // expect 0.0
 	printf("%f is the result\n", num2(1)); // expect 0.0
 	printf("%f is the result\n", num3(1, 1)); // expect 7.071068
